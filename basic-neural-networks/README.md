@@ -23,6 +23,12 @@ Additional experiments incorporating more complex architectures and learning alg
    - Showed failure due to non-linear separability.
    - Explained why perceptron cannot solve XOR.
 
+4. **[`Sigmoid_Neuron.ipynb`](./Sigmoid_Neuron.ipynb)**
+   - Built a `SigmoidNeuron` class with manual forward pass.
+   - Passed input through weighted sum and sigmoid function.
+   - Plotted sigmoid curve to visualize activation behavior.
+
+
 ### Requirements
 
 - Python 3.x
