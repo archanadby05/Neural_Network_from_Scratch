@@ -28,6 +28,34 @@ Additional experiments incorporating more complex architectures and learning alg
    - Passed input through weighted sum and sigmoid function.
    - Plotted sigmoid curve to visualize activation behavior.
 
+5. **[`05_sigmoid_neuron_training.py`](./05_sigmoid_neuron_training.py)**
+   - Implemented gradient descent for training a sigmoid neuron.
+   - Manually computed Mean Squared Error (MSE) loss.
+   - Computed gradients manually and updated weights using gradient descent.
+   - Trained the model on a simple dataset to demonstrate the learning process.
+
+6. **[`06_simple_mlp.py`](./06_simple_mlp.py)**
+   - Built a simple Multi-Layer Perceptron (MLP) with an input layer, hidden layer (sigmoid activation), and output layer (sigmoid activation).
+   - Trained the MLP to successfully solve the XOR problem.
+   - Visualized the decision boundary (optional).
+
+7. **[`07_tanh_neuron.py`](./07_tanh_neuron.py)**
+   - Defined the tanh activation function and its derivative.
+   - Built a `TanhNeuron` class with a forward pass.
+   - Compared `tanh` vs `sigmoid` visually by plotting their activation curves.
+   - Showed the differences in behavior between the two activation functions.
+
+8. **[`08_relu_neuron.py`](./08_relu_neuron.py)**
+   - Defined the ReLU activation function and its derivative.
+   - Built a `ReLUNeuron` class with a forward pass.
+   - Demonstrated the activation of ReLU on both positive and negative inputs.
+   - Plotted the ReLU activation curve to show its sparsity behavior (outputs zero for negative inputs).
+
+9. **[`09_softmax_output_layer.py`](./09_softmax_output_layer.py)**
+   - Implemented softmax activation for the output layer in a multi-class classification scenario.
+   - Converted logits into probabilities using the softmax function.
+   - Incorporated categorical cross-entropy loss for training.
+   - Validated the model on a simple 3-class classification example.
 
 ### Requirements
 
